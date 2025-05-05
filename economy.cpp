@@ -1,21 +1,10 @@
 #include"economy.h"
-<<<<<<< HEAD
-
-
-Economy::Economy() {
-    treasury = 1000;
-    taxRate = 5;
-    inflation = 100;
-}
-void Economy:: taxPopulation(const Population& pop) {
-=======
 Economy::Economy() {
     treasury = 1000;
     taxRate = 5;          
     inflation = 100;     
 }
 void Economy::taxPopulation(const Population& pop) {
->>>>>>> fatima
     cout << "\n--- Tax Collection ---\n";
 
     int populationSize;
@@ -31,11 +20,7 @@ void Economy::taxPopulation(const Population& pop) {
     cout << "Collected: " << adjustedCollection << " gold\n";
     cout << "New Treasury: " << treasury << " gold\n";
 
-<<<<<<< HEAD
-
-=======
    
->>>>>>> fatima
     inflation = inflation + 5;
     if (inflation > 200) {
         inflation = 200;
@@ -63,11 +48,7 @@ void Economy:: showStats() const {
     cout << "Tax Rate: " << taxRate << "%\n";
     cout << "Inflation: " << inflation << " (x" << inflation / 100.0 << ")\n";
 }
-<<<<<<< HEAD
-void Economy::saveToFile() const {
-=======
 void Economy:: saveToFile() const {
->>>>>>> fatima
     ofstream out("economy.txt");
     if (!out) {
         cout << "Error: Unable to open file for saving economy.\n";
@@ -81,11 +62,7 @@ void Economy:: saveToFile() const {
 
     cout << "Economy saved to file.\n";
 }
-<<<<<<< HEAD
-void Economy::loadFromFile() {
-=======
 void Economy:: loadFromFile() {
->>>>>>> fatima
     ifstream in("economy.txt");
     if (!in) {
         cout << "Error: Unable to open file for loading economy.\n";
@@ -97,15 +74,7 @@ void Economy:: loadFromFile() {
 
     cout << "Economy loaded from file.\n";
 }
-<<<<<<< HEAD
-void Economy::resetTreasury() {
-    treasury = 0;
-    cout << "Treasury collapsed! Set to 0.\n";
-}
-int Economy::getTreasury() const {
-=======
 int Economy:: getTreasury() const {
->>>>>>> fatima
     return treasury;
 }
 void Economy:: receiveLoan(int amount) {
