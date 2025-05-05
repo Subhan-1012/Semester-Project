@@ -8,8 +8,13 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
+<<<<<<< HEAD
       "cwd": "d:/vs code projects/oop final project",
       "program": "d:/vs code projects/oop final project/build/Debug/outDebug",
+=======
+      "cwd": "c:/Users/Admin/OneDrive/Desktop/cpp",
+      "program": "c:/Users/Admin/OneDrive/Desktop/cpp/build/Debug/outDebug",
+>>>>>>> 7cff2a7615896eb9862856bc0a7442d927b09692
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
