@@ -14,5 +14,5 @@ class Economy {
         void loadFromFile();
         int getTreasury() const;
         void receiveLoan(int amount);
-        void resetTreasury();  
+        void resetTreasury();  // subhan
     };
