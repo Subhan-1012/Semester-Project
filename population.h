@@ -16,4 +16,3 @@ class Population {
         int getTotal() const;
         void decrease(int amount);
 };
-
